@@ -8,7 +8,7 @@ class Admin(BaseApi):
 
     # 在这里初始化业务，支持输入指定的参数
     def __init__(self, org_code, username, password):
-        self.base_url = "https://dev.zhuoxiaohui.com/gateway/manage/api"
+        self.base_url = ""
         self.org_code = org_code
         self.username = username
         self.password = password
